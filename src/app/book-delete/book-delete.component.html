@@ -1,0 +1,26 @@
+<br>
+<div>
+  <h3>Delete book</h3>
+  <div>
+    <div class="alert alert-primary a" role="alert">
+      Title:
+    </div>
+    <p>{{book.title}}</p>
+  </div>
+  <div>
+    <div class="alert alert-primary a" role="alert">
+      Author
+    </div>
+    <p>{{book.author}}</p>
+  </div>
+  <div>
+    <div class="alert alert-primary a" role="alert">
+      Description
+    </div>
+    <p>{{book.description}}</p>
+  </div>
+  <div>
+    <p>Are you sure?</p>
+    <button class="btn btn-primary" (click)="delete()">Delete</button>
+  </div>
+</div>
